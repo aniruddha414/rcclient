@@ -15,6 +15,8 @@ const getRoles = (role) => {
             return 'Customer';
         case 'admin':
             return 'Admin';
+        default:
+            return 'Other';
     }
 };
 
